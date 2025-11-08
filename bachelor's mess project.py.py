@@ -57,7 +57,7 @@ while 1:
        cost=cost+bzr[i]
     print("Total Cost of bazar :",end=" ")
     print(cost)
-    print("Then The each person mill are  :")
+    print("Then The each person's mill are  :")
     lst1=[]
     mill=0
     for i in range(0,member):
@@ -77,10 +77,10 @@ while 1:
     for i in range(0,member):
         z=float((bzr[i]-(vuya+(y*lst1[i]))))
         if z>0:
-         print("This member will get from the mess :",end=" ")
+         print("The member will get from the mess :",end=" ")
          print(i+1,lst[i],round(z,4))
         else:
-          print("The mess will get from That member:",end=" ")
+          print("The mess will get from this member:",end=" ")
           print(i+1,lst[i],round(z,4))
 
   
@@ -100,3 +100,4 @@ while 1:
 #print("OK bye")
 xx=input()
     
+
